@@ -16,7 +16,7 @@ class SLD_Register_Post_Type {
 		
 		// meat n potatoes
 		$this->post_type = $post_type;
-		$this->post_slug = ( $custom_plural ) ? $custom_plural : $post_type . 's';
+		$this->post_slug = $post_type . 's';
 		
 		// sort out those $args
 		$this->set_defaults();
